@@ -182,7 +182,7 @@ namespace Background_Terminal
         private void SendCommand(string command)
         {
             _terminalData.Add(command);
-            _cmdProcess.StandardInput.WriteLine(command);
+            _cmdProcess.StandardInput.Write(command + "\n");
         }
         #endregion
 
