@@ -14,7 +14,7 @@
     mc:Ignorable="d">
     <Grid>
         <TextBox
-            x:Name="TerminalData_TextBox"
+            x:Name="terminalData_TextBox"
             Background="Transparent"
             BorderThickness="0"
             FontFamily="Consolas"
@@ -23,7 +23,7 @@
             TextChanged="TerminalDataTextBox_TextChanged"
             TextWrapping="Wrap" />
         <TextBox
-            x:Name="Input_TextBox"
+            x:Name="input_TextBox"
             VerticalAlignment="Bottom"
             Background="Transparent"
             BorderThickness="0"
